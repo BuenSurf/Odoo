@@ -1,0 +1,22 @@
+2023-02-09 08:46:06.217 UTC [4680] LOG:  database system was shut down at 2023-02-06 13:57:11 UTC
+2023-02-09 08:46:07.274 UTC [4128] LOG:  database system is ready to accept connections
+2023-02-09 10:42:58.109 UTC [9448] ERROR:  duplicate key value violates unique constraint "res_users_settings_unique_user_id"
+2023-02-09 10:42:58.109 UTC [9448] DETAIL:  Key (user_id)=(2) already exists.
+2023-02-09 10:42:58.109 UTC [9448] STATEMENT:  INSERT INTO "res_users_settings" ("id", "create_date", "create_uid", "is_discuss_sidebar_category_channel_open", "is_discuss_sidebar_category_chat_open", "use_push_to_talk", "user_id", "write_date", "write_uid") VALUES (nextval('res_users_settings_id_seq'), '2023-02-09 10:42:57.866050', 2, true, true, false, 2, '2023-02-09 10:42:57.866050', 2) RETURNING id
+2023-02-09 11:12:14.127 UTC [4128] LOG:  received fast shutdown request
+2023-02-09 11:12:14.151 UTC [4864] ERROR:  canceling statement due to user request
+2023-02-09 11:12:14.159 UTC [4128] LOG:  aborting any active transactions
+2023-02-09 11:12:14.164 UTC [9448] FATAL:  terminating connection due to administrator command
+2023-02-09 11:12:14.172 UTC [10204] FATAL:  terminating connection due to administrator command
+2023-02-09 11:12:14.201 UTC [9704] FATAL:  terminating connection due to administrator command
+2023-02-09 11:12:14.211 UTC [9804] FATAL:  terminating connection due to administrator command
+2023-02-09 11:12:14.215 UTC [432] FATAL:  terminating connection due to administrator command
+2023-02-09 11:12:14.229 UTC [3872] FATAL:  terminating connection due to administrator command
+2023-02-09 11:12:14.242 UTC [1200] FATAL:  terminating connection due to administrator command
+2023-02-09 11:12:14.259 UTC [8564] FATAL:  terminating connection due to administrator command
+2023-02-09 11:12:14.273 UTC [4532] FATAL:  terminating connection due to administrator command
+2023-02-09 11:12:14.285 UTC [6072] FATAL:  terminating connection due to administrator command
+2023-02-09 11:12:14.287 UTC [4128] LOG:  background worker "logical replication launcher" (PID 4864) exited with exit code 1
+2023-02-09 11:12:14.336 UTC [4820] LOG:  shutting down
+2023-02-09 11:12:14.360 UTC [8260] FATAL:  the database system is shutting down
+2023-02-09 11:12:14.638 UTC [4128] LOG:  database system is shut down

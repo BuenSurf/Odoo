@@ -1,0 +1,10 @@
+2023-02-02 10:17:15.554 UTC [8204] LOG:  database system was shut down at 2023-02-02 10:17:05 UTC
+2023-02-02 10:17:15.615 UTC [8688] LOG:  database system is ready to accept connections
+2023-02-02 10:42:23.831 UTC [8688] LOG:  received fast shutdown request
+2023-02-02 10:42:23.837 UTC [7952] ERROR:  canceling statement due to user request
+2023-02-02 10:42:23.848 UTC [8688] LOG:  aborting any active transactions
+2023-02-02 10:42:23.852 UTC [2500] FATAL:  terminating connection due to administrator command
+2023-02-02 10:42:23.860 UTC [9616] FATAL:  terminating connection due to administrator command
+2023-02-02 10:42:23.874 UTC [8688] LOG:  background worker "logical replication launcher" (PID 7952) exited with exit code 1
+2023-02-02 10:42:23.896 UTC [6576] LOG:  shutting down
+2023-02-02 10:42:24.258 UTC [8688] LOG:  database system is shut down
