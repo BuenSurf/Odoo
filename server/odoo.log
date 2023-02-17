@@ -6375,3 +6375,661 @@ View error context:
 2023-02-16 10:34:20,403 3920 INFO Grupo4SSG werkzeug: 127.0.0.1 - - [16/Feb/2023 10:34:20] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.000 50.015
 2023-02-16 10:34:35,091 3920 INFO Grupo4SSG werkzeug: 127.0.0.1 - - [16/Feb/2023 10:34:35] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.000
 2023-02-16 10:34:36,528 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:34:36] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.000
+2023-02-16 10:34:44,215 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:34:44] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.000
+2023-02-16 10:34:45,574 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:34:45] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.016
+2023-02-16 10:34:52,387 3920 INFO Grupo4SSG werkzeug: 127.0.0.1 - - [16/Feb/2023 10:34:52] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.000
+2023-02-16 10:35:07,309 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:35:07] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.000 50.015
+2023-02-16 10:35:07,668 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:35:07] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.000
+2023-02-16 10:35:09,449 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:35:09] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.000 49.999
+2023-02-16 10:35:10,730 3920 INFO Grupo4SSG werkzeug: 127.0.0.1 - - [16/Feb/2023 10:35:10] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.000 50.015
+2023-02-16 10:35:26,074 3920 INFO Grupo4SSG werkzeug: 127.0.0.1 - - [16/Feb/2023 10:35:26] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.000
+2023-02-16 10:35:27,433 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:35:27] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.016
+2023-02-16 10:35:35,230 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:35:35] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.016
+2023-02-16 10:35:36,574 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:35:36] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.000
+2023-02-16 10:35:43,386 3920 INFO Grupo4SSG werkzeug: 127.0.0.1 - - [16/Feb/2023 10:35:43] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.000
+2023-02-16 10:35:57,699 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:35:57] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.000 49.999
+2023-02-16 10:35:58,324 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:35:58] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.016
+2023-02-16 10:35:59,824 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:35:59] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.016 49.999
+2023-02-16 10:36:01,042 3920 INFO Grupo4SSG werkzeug: 127.0.0.1 - - [16/Feb/2023 10:36:01] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.000 49.999
+2023-02-16 10:36:17,073 3920 INFO Grupo4SSG werkzeug: 127.0.0.1 - - [16/Feb/2023 10:36:17] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.000
+2023-02-16 10:36:18,433 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:36:18] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.000
+2023-02-16 10:36:26,245 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:36:26] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.016
+2023-02-16 10:36:27,589 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:36:27] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.000
+2023-02-16 10:36:34,386 3920 INFO Grupo4SSG werkzeug: 127.0.0.1 - - [16/Feb/2023 10:36:34] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.000
+2023-02-16 10:36:48,057 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:36:48] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.000 49.999
+2023-02-16 10:36:49,073 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:36:49] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.016 0.000
+2023-02-16 10:36:50,214 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:36:50] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.016 50.015
+2023-02-16 10:36:51,370 3920 INFO Grupo4SSG werkzeug: 127.0.0.1 - - [16/Feb/2023 10:36:51] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.000 50.015
+2023-02-16 10:37:08,088 3920 INFO Grupo4SSG werkzeug: 127.0.0.1 - - [16/Feb/2023 10:37:08] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.016
+2023-02-16 10:37:09,432 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:37:09] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.016
+2023-02-16 10:37:17,245 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:37:17] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.016
+2023-02-16 10:37:17,917 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:37:17] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.016
+2023-02-16 10:37:25,385 3920 INFO Grupo4SSG werkzeug: 127.0.0.1 - - [16/Feb/2023 10:37:25] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.000
+2023-02-16 10:37:38,463 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:37:38] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.000 50.015
+2023-02-16 10:37:40,073 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:37:40] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.000
+2023-02-16 10:37:40,619 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:37:40] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.000 49.999
+2023-02-16 10:37:41,682 3920 INFO Grupo4SSG werkzeug: 127.0.0.1 - - [16/Feb/2023 10:37:41] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.000 50.000
+2023-02-16 10:37:59,072 3920 INFO Grupo4SSG werkzeug: 127.0.0.1 - - [16/Feb/2023 10:37:59] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.000
+2023-02-16 10:38:00,432 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:38:00] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.000
+2023-02-16 10:38:08,228 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:38:08] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.016
+2023-02-16 10:38:09,103 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:38:09] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.016 0.000
+2023-02-16 10:38:16,385 3920 INFO Grupo4SSG werkzeug: 127.0.0.1 - - [16/Feb/2023 10:38:16] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.000
+2023-02-16 10:38:28,932 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:38:28] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.016 50.016
+2023-02-16 10:38:30,369 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:38:30] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.000
+2023-02-16 10:38:30,994 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:38:30] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.000 49.999
+2023-02-16 10:38:31,291 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:38:31] "POST /web/action/load HTTP/1.1" 200 - 30 0.000 0.047
+2023-02-16 10:38:31,619 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:38:31] "POST /web/dataset/call_kw/res.partner/write HTTP/1.1" 200 - 19 0.016 0.016
+2023-02-16 10:38:32,009 3920 INFO Grupo4SSG werkzeug: 127.0.0.1 - - [16/Feb/2023 10:38:32] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.000 50.015
+2023-02-16 10:38:32,041 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:38:32] "POST /web/dataset/call_kw/res.config.settings/load_views HTTP/1.1" 200 - 21 0.000 0.063
+2023-02-16 10:38:34,462 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:38:34] "POST /web/dataset/call_kw/res.config.settings/onchange HTTP/1.1" 200 - 213 0.063 0.031
+2023-02-16 10:38:34,681 3920 INFO ? werkzeug: 193.146.86.25 - - [16/Feb/2023 10:38:34] "GET /base_setup/static/src/img/google_play.png HTTP/1.1" 304 - - - -
+2023-02-16 10:38:34,853 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:38:34] "POST /base_setup/data HTTP/1.1" 200 - 6 0.000 0.000
+2023-02-16 10:38:34,869 3920 INFO ? werkzeug: 193.146.86.25 - - [16/Feb/2023 10:38:34] "GET /base_setup/static/src/img/app_store.png HTTP/1.1" 304 - - - -
+2023-02-16 10:38:34,869 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:38:34] "POST /base_setup/demo_active HTTP/1.1" 200 - 4 0.000 0.000
+2023-02-16 10:38:35,259 3920 INFO ? werkzeug: 193.146.86.25 - - [16/Feb/2023 10:38:35] "GET /stock/static/description/icon.png HTTP/1.1" 304 - - - -
+2023-02-16 10:38:35,259 3920 INFO ? werkzeug: 193.146.86.25 - - [16/Feb/2023 10:38:35] "GET /base/static/description/settings.png HTTP/1.1" 304 - - - -
+2023-02-16 10:38:50,072 3920 INFO Grupo4SSG werkzeug: 127.0.0.1 - - [16/Feb/2023 10:38:50] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.000
+2023-02-16 10:38:51,462 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:38:51] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.016
+2023-02-16 10:38:59,181 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:38:59] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.000
+2023-02-16 10:39:00,118 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:39:00] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.000
+2023-02-16 10:39:07,884 3920 INFO Grupo4SSG werkzeug: 127.0.0.1 - - [16/Feb/2023 10:39:07] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.000
+2023-02-16 10:39:19,165 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:39:19] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.000 50.062
+2023-02-16 10:39:21,509 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:39:21] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.016 50.031
+2023-02-16 10:39:21,556 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:39:21] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.016
+2023-02-16 10:39:22,353 3920 INFO Grupo4SSG werkzeug: 127.0.0.1 - - [16/Feb/2023 10:39:22] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.000 50.015
+2023-02-16 10:39:35,446 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:39:35] "POST /web/action/load HTTP/1.1" 200 - 22 0.000 0.031
+2023-02-16 10:39:35,727 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:39:35] "POST /web/dataset/call_kw/ir.model/load_views HTTP/1.1" 200 - 59 0.047 0.047
+2023-02-16 10:39:36,509 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:39:36] "POST /web/dataset/search_read HTTP/1.1" 200 - 5 0.016 0.000
+2023-02-16 10:39:40,509 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:39:40] "POST /web/dataset/call_kw/ir.ui.view/load_views HTTP/1.1" 200 - 18 0.000 0.031
+2023-02-16 10:39:41,040 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:39:41] "POST /web/dataset/call_kw/ir.model/read HTTP/1.1" 200 - 24 0.016 0.016
+2023-02-16 10:39:41,087 3920 INFO Grupo4SSG werkzeug: 127.0.0.1 - - [16/Feb/2023 10:39:41] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.000
+2023-02-16 10:39:41,431 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:39:41] "POST /web/dataset/call_kw/ir.model.fields/read HTTP/1.1" 200 - 2 0.000 0.016
+2023-02-16 10:39:41,431 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:39:41] "POST /web/dataset/call_kw/ir.rule/read HTTP/1.1" 200 - 3 0.000 0.016
+2023-02-16 10:39:41,431 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:39:41] "POST /web/dataset/call_kw/ir.model.access/read HTTP/1.1" 200 - 4 0.016 0.000
+2023-02-16 10:39:41,431 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:39:41] "POST /web/dataset/call_kw/ir.ui.view/read HTTP/1.1" 200 - 4 0.000 0.016
+2023-02-16 10:39:41,946 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:39:41] "POST /web/dataset/call_kw/res.groups/read HTTP/1.1" 200 - 3 0.000 0.016
+2023-02-16 10:39:42,446 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:39:42] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.016
+2023-02-16 10:39:50,024 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:39:50] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.016 0.000
+2023-02-16 10:39:50,321 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:39:50] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.016
+2023-02-16 10:40:00,383 3920 INFO Grupo4SSG werkzeug: 127.0.0.1 - - [16/Feb/2023 10:40:00] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.000
+2023-02-16 10:40:01,290 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:40:01] "POST /web/dataset/call_kw/ir.model/onchange HTTP/1.1" 200 - 6 0.000 0.016
+2023-02-16 10:40:09,368 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:40:09] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.000 50.015
+2023-02-16 10:40:11,899 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:40:11] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.016 50.015
+2023-02-16 10:40:12,711 3920 INFO Grupo4SSG werkzeug: 127.0.0.1 - - [16/Feb/2023 10:40:12] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.000 50.015
+2023-02-16 10:40:12,852 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:40:12] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.016
+2023-02-16 10:40:32,086 3920 INFO Grupo4SSG werkzeug: 127.0.0.1 - - [16/Feb/2023 10:40:32] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.016
+2023-02-16 10:40:33,446 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:40:33] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.016
+2023-02-16 10:40:41,227 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:40:41] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.016
+2023-02-16 10:40:41,305 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:40:41] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.000
+2023-02-16 10:40:51,399 3920 INFO Grupo4SSG werkzeug: 127.0.0.1 - - [16/Feb/2023 10:40:51] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.000
+2023-02-16 10:40:59,742 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:40:59] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.000 50.015
+2023-02-16 10:41:02,320 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:41:02] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.000 50.015
+2023-02-16 10:41:03,024 3920 INFO Grupo4SSG werkzeug: 127.0.0.1 - - [16/Feb/2023 10:41:03] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.000 50.000
+2023-02-16 10:41:03,852 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:41:03] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.000
+2023-02-16 10:41:23,070 3920 INFO Grupo4SSG werkzeug: 127.0.0.1 - - [16/Feb/2023 10:41:23] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.000
+2023-02-16 10:41:24,539 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:41:24] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.016
+2023-02-16 10:41:32,257 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:41:32] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.016
+2023-02-16 10:41:32,304 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:41:32] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.000
+2023-02-16 10:41:42,382 3920 INFO Grupo4SSG werkzeug: 127.0.0.1 - - [16/Feb/2023 10:41:42] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.000
+2023-02-16 10:41:50,179 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:41:50] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.000 50.031
+2023-02-16 10:41:52,757 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:41:52] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.000 50.031
+2023-02-16 10:41:53,382 3920 INFO Grupo4SSG werkzeug: 127.0.0.1 - - [16/Feb/2023 10:41:53] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.000 50.031
+2023-02-16 10:41:54,867 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:41:54] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.016
+2023-02-16 10:42:14,070 3920 INFO Grupo4SSG werkzeug: 127.0.0.1 - - [16/Feb/2023 10:42:14] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.000
+2023-02-16 10:42:15,429 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:42:15] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.016 0.000
+2023-02-16 10:42:23,241 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:42:23] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.016 0.000
+2023-02-16 10:42:23,319 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:42:23] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.016
+2023-02-16 10:42:33,398 3920 INFO Grupo4SSG werkzeug: 127.0.0.1 - - [16/Feb/2023 10:42:33] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.000
+2023-02-16 10:42:40,897 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:42:40] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.000 50.031
+2023-02-16 10:42:43,319 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:42:43] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.000 50.078
+2023-02-16 10:42:43,710 3920 INFO Grupo4SSG werkzeug: 127.0.0.1 - - [16/Feb/2023 10:42:43] "POST /longpolling/poll HTTP/1.1" 200 - 8 0.000 50.015
+2023-02-16 10:42:45,819 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:42:45] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.016
+2023-02-16 10:42:48,741 3920 INFO Grupo4SSG odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2023-02-16 10:42:48,741 3920 INFO Grupo4SSG odoo.addons.base.models.ir_cron: Job `Snailmail: process letters queue` done. 
+2023-02-16 10:42:48,757 3920 INFO Grupo4SSG odoo.addons.base.models.ir_cron: Starting job `Users: Notify About Unregistered Users`. 
+2023-02-16 10:42:48,772 3920 INFO Grupo4SSG odoo.addons.base.models.ir_cron: Job `Users: Notify About Unregistered Users` done. 
+2023-02-16 10:42:48,772 3920 INFO Grupo4SSG odoo.addons.base.models.ir_cron: Starting job `Calendar: Event Reminder`. 
+2023-02-16 10:42:48,788 3920 INFO Grupo4SSG odoo.addons.base.models.ir_cron: Job `Calendar: Event Reminder` done. 
+2023-02-16 10:42:48,788 3920 INFO Grupo4SSG odoo.addons.base.models.ir_cron: Starting job `Notification: Delete Notifications older than 6 Month`. 
+2023-02-16 10:42:48,804 3920 INFO Grupo4SSG odoo.addons.base.models.ir_cron: Job `Notification: Delete Notifications older than 6 Month` done. 
+2023-02-16 10:42:48,804 3920 INFO Grupo4SSG odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2023-02-16 10:42:48,819 3920 INFO Grupo4SSG odoo.addons.base.models.ir_cron: Job `Mail: Email Queue Manager` done. 
+2023-02-16 10:42:48,819 3920 INFO Grupo4SSG odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2023-02-16 10:42:48,835 3920 INFO Grupo4SSG odoo.addons.base.models.ir_cron: Job `Partner Autocomplete : Sync with remote DB` done. 
+2023-02-16 10:42:48,835 3920 INFO Grupo4SSG odoo.addons.base.models.ir_cron: Starting job `SMS: SMS Queue Manager`. 
+2023-02-16 10:42:48,835 3920 INFO Grupo4SSG odoo.addons.base.models.ir_cron: Job `SMS: SMS Queue Manager` done. 
+2023-02-16 10:42:48,850 3920 INFO Grupo4SSG odoo.addons.base.models.ir_cron: Starting job `Publisher: Update Notification`. 
+2023-02-16 10:42:49,616 3920 INFO Grupo4SSG odoo.addons.base.models.ir_cron: Job `Publisher: Update Notification` done. 
+2023-02-16 10:43:05,069 3920 INFO Grupo4SSG werkzeug: 127.0.0.1 - - [16/Feb/2023 10:43:05] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.000
+2023-02-16 10:43:08,506 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:43:08] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.016
+2023-02-16 10:43:14,366 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:43:14] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.016 0.000
+2023-02-16 10:43:14,366 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:43:14] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.016
+2023-02-16 10:43:24,381 3920 INFO Grupo4SSG werkzeug: 127.0.0.1 - - [16/Feb/2023 10:43:24] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.000
+2023-02-16 10:43:31,366 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:43:31] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.016 50.031
+2023-02-16 10:43:33,803 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:43:33] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.000 50.031
+2023-02-16 10:43:34,069 3920 INFO Grupo4SSG werkzeug: 127.0.0.1 - - [16/Feb/2023 10:43:34] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.000 50.046
+2023-02-16 10:43:36,834 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:43:36] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.016
+2023-02-16 10:43:56,084 3920 INFO Grupo4SSG werkzeug: 127.0.0.1 - - [16/Feb/2023 10:43:56] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.016
+2023-02-16 10:43:56,615 3920 INFO Grupo4SSG odoo.addons.base.models.ir_cron: Starting job `Procurement: run scheduler`. 
+2023-02-16 10:43:56,647 3920 INFO Grupo4SSG odoo.addons.stock.models.stock_rule: _run_scheduler_tasks is finished and committed 
+2023-02-16 10:43:56,647 3920 INFO Grupo4SSG odoo.addons.base.models.ir_cron: Job `Procurement: run scheduler` done. 
+2023-02-16 10:43:59,428 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:43:59] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.016
+2023-02-16 10:44:05,271 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:44:05] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.016
+2023-02-16 10:44:05,350 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:44:05] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.016
+2023-02-16 10:44:15,381 3920 INFO Grupo4SSG werkzeug: 127.0.0.1 - - [16/Feb/2023 10:44:15] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.000
+2023-02-16 10:44:21,818 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:44:21] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.016 50.000
+2023-02-16 10:44:24,194 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:44:24] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.016 50.000
+2023-02-16 10:44:24,412 3920 INFO Grupo4SSG werkzeug: 127.0.0.1 - - [16/Feb/2023 10:44:24] "POST /longpolling/poll HTTP/1.1" 200 - 8 0.016 50.000
+2023-02-16 10:44:27,834 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:44:27] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.016 0.000
+2023-02-16 10:44:47,084 3920 INFO Grupo4SSG werkzeug: 127.0.0.1 - - [16/Feb/2023 10:44:47] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.016
+2023-02-16 10:44:50,427 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:44:50] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.016
+2023-02-16 10:44:56,365 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:44:56] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.016
+2023-02-16 10:44:56,365 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:44:56] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.016
+2023-02-16 10:45:06,380 3920 INFO Grupo4SSG werkzeug: 127.0.0.1 - - [16/Feb/2023 10:45:06] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.000
+2023-02-16 10:45:12,177 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:45:12] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.000 50.000
+2023-02-16 10:45:14,740 3920 INFO Grupo4SSG werkzeug: 127.0.0.1 - - [16/Feb/2023 10:45:14] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.000 50.015
+2023-02-16 10:45:15,068 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:45:15] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.000 50.015
+2023-02-16 10:45:18,849 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:45:18] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.016
+2023-02-16 10:45:38,067 3920 INFO Grupo4SSG werkzeug: 127.0.0.1 - - [16/Feb/2023 10:45:38] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.000
+2023-02-16 10:45:41,474 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:45:41] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.016
+2023-02-16 10:45:47,302 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:45:47] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.000
+2023-02-16 10:45:47,380 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:45:47] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.016
+2023-02-16 10:45:57,398 3920 INFO Grupo4SSG werkzeug: 127.0.0.1 - - [16/Feb/2023 10:45:57] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.016
+2023-02-16 10:46:02,664 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:46:02] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.000 50.018
+2023-02-16 10:46:05,054 3920 INFO Grupo4SSG werkzeug: 127.0.0.1 - - [16/Feb/2023 10:46:05] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.000 50.002
+2023-02-16 10:46:05,476 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:46:05] "POST /longpolling/poll HTTP/1.1" 200 - 8 0.000 50.018
+2023-02-16 10:46:09,929 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:46:09] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.016 0.000
+2023-02-16 10:46:29,085 3920 INFO Grupo4SSG werkzeug: 127.0.0.1 - - [16/Feb/2023 10:46:29] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.016
+2023-02-16 10:46:32,445 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:46:32] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.016 0.016
+2023-02-16 10:46:38,320 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:46:38] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.016 0.000
+2023-02-16 10:46:38,398 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:46:38] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.016
+2023-02-16 10:46:48,398 3920 INFO Grupo4SSG werkzeug: 127.0.0.1 - - [16/Feb/2023 10:46:48] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.016
+2023-02-16 10:46:53,163 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:46:53] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.000 50.015
+2023-02-16 10:46:55,382 3920 INFO Grupo4SSG werkzeug: 127.0.0.1 - - [16/Feb/2023 10:46:55] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.000 50.015
+2023-02-16 10:46:55,882 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:46:55] "POST /longpolling/poll HTTP/1.1" 200 - 8 0.000 50.031
+2023-02-16 10:47:20,096 3920 INFO Grupo4SSG werkzeug: 127.0.0.1 - - [16/Feb/2023 10:47:20] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.016
+2023-02-16 10:47:23,439 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:47:23] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.016
+2023-02-16 10:47:28,861 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:47:28] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.016
+2023-02-16 10:47:29,158 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:47:29] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.016
+2023-02-16 10:47:39,408 3920 INFO Grupo4SSG werkzeug: 127.0.0.1 - - [16/Feb/2023 10:47:39] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.016
+2023-02-16 10:47:43,658 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:47:43] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.000 50.026
+2023-02-16 10:47:45,720 3920 INFO Grupo4SSG werkzeug: 127.0.0.1 - - [16/Feb/2023 10:47:45] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.016 50.010
+2023-02-16 10:47:46,267 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:47:46] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.000 50.026
+2023-02-16 10:48:11,095 3920 INFO Grupo4SSG werkzeug: 127.0.0.1 - - [16/Feb/2023 10:48:11] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.016
+2023-02-16 10:48:14,454 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:48:14] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.016
+2023-02-16 10:48:19,345 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:48:19] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.016 0.000
+2023-02-16 10:48:20,189 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:48:20] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.016
+2023-02-16 10:48:30,407 3920 INFO Grupo4SSG werkzeug: 127.0.0.1 - - [16/Feb/2023 10:48:30] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.016
+2023-02-16 10:48:34,126 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:48:34] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.000 50.015
+2023-02-16 10:48:36,064 3920 INFO Grupo4SSG werkzeug: 127.0.0.1 - - [16/Feb/2023 10:48:36] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.016 50.000
+2023-02-16 10:48:36,673 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:48:36] "POST /longpolling/poll HTTP/1.1" 200 - 8 0.000 50.015
+2023-02-16 10:49:02,083 3920 INFO Grupo4SSG werkzeug: 127.0.0.1 - - [16/Feb/2023 10:49:02] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.016
+2023-02-16 10:49:05,427 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:49:05] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.016 0.000
+2023-02-16 10:49:09,942 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:49:09] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.016
+2023-02-16 10:49:11,505 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:49:11] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.016
+2023-02-16 10:49:21,395 3920 INFO Grupo4SSG werkzeug: 127.0.0.1 - - [16/Feb/2023 10:49:21] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.016
+2023-02-16 10:49:24,614 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:49:24] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.016 50.004
+2023-02-16 10:49:26,395 3920 INFO Grupo4SSG werkzeug: 127.0.0.1 - - [16/Feb/2023 10:49:26] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.016 50.004
+2023-02-16 10:49:27,052 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:49:27] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.016 50.004
+2023-02-16 10:49:53,083 3920 INFO Grupo4SSG werkzeug: 127.0.0.1 - - [16/Feb/2023 10:49:53] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.016
+2023-02-16 10:49:56,442 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:49:56] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.016 0.016
+2023-02-16 10:50:00,942 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:50:00] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.016 0.000
+2023-02-16 10:50:02,473 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:50:02] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.016
+2023-02-16 10:50:12,395 3920 INFO Grupo4SSG werkzeug: 127.0.0.1 - - [16/Feb/2023 10:50:12] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.016
+2023-02-16 10:50:15,114 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:50:15] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.016 50.015
+2023-02-16 10:50:16,739 3920 INFO Grupo4SSG werkzeug: 127.0.0.1 - - [16/Feb/2023 10:50:16] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.016 50.015
+2023-02-16 10:50:17,426 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:50:17] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.000 50.015
+2023-02-16 10:50:44,082 3920 INFO Grupo4SSG werkzeug: 127.0.0.1 - - [16/Feb/2023 10:50:44] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.016
+2023-02-16 10:50:45,004 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:50:45] "POST /web/dataset/call_kw/res.groups/load_views HTTP/1.1" 200 - 6 0.000 0.016
+2023-02-16 10:50:45,473 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:50:45] "POST /web/dataset/call_kw/ir.model.fields/onchange HTTP/1.1" 200 - 2 0.000 0.000
+2023-02-16 10:50:45,895 3920 INFO ? werkzeug: 193.146.86.25 - - [16/Feb/2023 10:50:45] "GET /web/static/src/legacy/xml/dialog.xml?debug=1676544645621 HTTP/1.1" 200 - - - -
+2023-02-16 10:50:47,442 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:50:47] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.031
+2023-02-16 10:50:51,145 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:50:51] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.016
+2023-02-16 10:50:53,473 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:50:53] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.016
+2023-02-16 10:51:01,269 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:51:01] "POST /web/dataset/call_kw/ir.model.fields/onchange HTTP/1.1" 200 - 1 0.000 0.016
+2023-02-16 10:51:03,629 3920 INFO Grupo4SSG werkzeug: 127.0.0.1 - - [16/Feb/2023 10:51:03] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.016
+2023-02-16 10:51:04,004 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:51:04] "POST /web/dataset/call_kw/ir.model.fields/onchange HTTP/1.1" 200 - 1 0.000 0.000
+2023-02-16 10:51:05,566 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:51:05] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.000 50.031
+2023-02-16 10:51:07,082 3920 INFO Grupo4SSG werkzeug: 127.0.0.1 - - [16/Feb/2023 10:51:07] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.016 50.015
+2023-02-16 10:51:07,832 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:51:07] "POST /longpolling/poll HTTP/1.1" 200 - 8 0.000 50.031
+2023-02-16 10:51:35,082 3920 INFO Grupo4SSG werkzeug: 127.0.0.1 - - [16/Feb/2023 10:51:35] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.016
+2023-02-16 10:51:37,504 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:51:37] "POST /web/dataset/call_kw/ir.model.fields/onchange HTTP/1.1" 200 - 2 0.000 0.016
+2023-02-16 10:51:38,441 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:51:38] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.016 0.000
+2023-02-16 10:51:41,425 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:51:41] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.016
+2023-02-16 10:51:44,472 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:51:44] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.016
+2023-02-16 10:51:54,394 3920 INFO Grupo4SSG werkzeug: 127.0.0.1 - - [16/Feb/2023 10:51:54] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.016
+2023-02-16 10:51:56,081 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:51:56] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.016 50.015
+2023-02-16 10:51:57,425 3920 INFO Grupo4SSG werkzeug: 127.0.0.1 - - [16/Feb/2023 10:51:57] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.016 50.015
+2023-02-16 10:51:58,206 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:51:58] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.000 50.015
+2023-02-16 10:52:18,530 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:52:18] "POST /web/dataset/call_kw/ir.model.fields/onchange HTTP/1.1" 200 - 1 0.000 0.016
+2023-02-16 10:52:26,093 3920 INFO Grupo4SSG werkzeug: 127.0.0.1 - - [16/Feb/2023 10:52:26] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.016
+2023-02-16 10:52:29,437 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:52:29] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.016 0.000
+2023-02-16 10:52:31,624 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:52:31] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.016
+2023-02-16 10:52:35,452 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:52:35] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.016
+2023-02-16 10:52:44,577 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:52:44] "POST /web/dataset/call_kw/ir.model.fields/onchange HTTP/1.1" 200 - 2 0.000 0.016
+2023-02-16 10:52:45,405 3920 INFO Grupo4SSG werkzeug: 127.0.0.1 - - [16/Feb/2023 10:52:45] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.016
+2023-02-16 10:52:46,561 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:52:46] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.016 50.011
+2023-02-16 10:52:47,765 3920 INFO Grupo4SSG werkzeug: 127.0.0.1 - - [16/Feb/2023 10:52:47] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.000 50.027
+2023-02-16 10:52:48,593 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:52:48] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.000 50.027
+2023-02-16 10:53:17,092 3920 INFO Grupo4SSG werkzeug: 127.0.0.1 - - [16/Feb/2023 10:53:17] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.016
+2023-02-16 10:53:20,436 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:53:20] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.016
+2023-02-16 10:53:21,124 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:53:21] "POST /web/dataset/call_kw/ir.model.fields/onchange HTTP/1.1" 200 - 1 0.000 0.016
+2023-02-16 10:53:22,139 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:53:22] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.016
+2023-02-16 10:53:26,280 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:53:26] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.016 0.000
+2023-02-16 10:53:31,998 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:53:31] "POST /web/dataset/call_kw/ir.model.fields/onchange HTTP/1.1" 200 - 2 0.000 0.016
+2023-02-16 10:53:36,405 3920 INFO Grupo4SSG werkzeug: 127.0.0.1 - - [16/Feb/2023 10:53:36] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.016
+2023-02-16 10:53:37,045 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:53:37] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.000 50.031
+2023-02-16 10:53:38,092 3920 INFO Grupo4SSG werkzeug: 127.0.0.1 - - [16/Feb/2023 10:53:38] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.016 50.000
+2023-02-16 10:53:38,983 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:53:38] "POST /longpolling/poll HTTP/1.1" 200 - 8 0.000 50.031
+2023-02-16 10:53:50,795 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:53:50] "POST /web/dataset/call_kw/ir.model.fields/onchange HTTP/1.1" 200 - 1 0.000 0.016
+2023-02-16 10:54:08,092 3920 INFO Grupo4SSG werkzeug: 127.0.0.1 - - [16/Feb/2023 10:54:08] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.016
+2023-02-16 10:54:11,436 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:54:11] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.016
+2023-02-16 10:54:12,608 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:54:12] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.016
+2023-02-16 10:54:17,295 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:54:17] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.016
+2023-02-16 10:54:23,592 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:54:23] "POST /web/dataset/call_kw/ir.model.fields/onchange HTTP/1.1" 200 - 2 0.016 0.000
+2023-02-16 10:54:27,404 3920 INFO Grupo4SSG werkzeug: 127.0.0.1 - - [16/Feb/2023 10:54:27] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.016
+2023-02-16 10:54:27,529 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:54:27] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.016 50.015
+2023-02-16 10:54:28,420 3920 INFO Grupo4SSG werkzeug: 127.0.0.1 - - [16/Feb/2023 10:54:28] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.000 50.015
+2023-02-16 10:54:29,373 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:54:29] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.016 50.015
+2023-02-16 10:54:52,623 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:54:52] "POST /web/dataset/call_kw/ir.model.fields/onchange HTTP/1.1" 200 - 1 0.000 0.016
+2023-02-16 10:54:59,091 3920 INFO Grupo4SSG werkzeug: 127.0.0.1 - - [16/Feb/2023 10:54:59] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.016
+2023-02-16 10:55:02,435 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:55:02] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.031
+2023-02-16 10:55:03,091 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:55:03] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.016
+2023-02-16 10:55:08,310 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:55:08] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.016
+2023-02-16 10:55:18,013 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:55:18] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.016 50.015
+2023-02-16 10:55:18,404 3920 INFO Grupo4SSG werkzeug: 127.0.0.1 - - [16/Feb/2023 10:55:18] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.016
+2023-02-16 10:55:18,763 3920 INFO Grupo4SSG werkzeug: 127.0.0.1 - - [16/Feb/2023 10:55:18] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.000 50.031
+2023-02-16 10:55:19,779 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:55:19] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.016 50.015
+2023-02-16 10:55:50,091 3920 INFO Grupo4SSG werkzeug: 127.0.0.1 - - [16/Feb/2023 10:55:50] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.016
+2023-02-16 10:55:53,419 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:55:53] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.016 0.000
+2023-02-16 10:55:53,575 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:55:53] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.016
+2023-02-16 10:55:59,497 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:55:59] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.016
+2023-02-16 10:56:08,482 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:56:08] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.016 50.015
+2023-02-16 10:56:09,107 3920 INFO Grupo4SSG werkzeug: 127.0.0.1 - - [16/Feb/2023 10:56:09] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.000 50.031
+2023-02-16 10:56:09,403 3920 INFO Grupo4SSG werkzeug: 127.0.0.1 - - [16/Feb/2023 10:56:09] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.016
+2023-02-16 10:56:10,153 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:56:10] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.000 50.015
+2023-02-16 10:56:35,106 3920 WARNING Grupo4SSG odoo.http: El nombre del modelo puede solo contener minúsculas, dígitos, guión bajo y puntos. 
+2023-02-16 10:56:35,106 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:56:35] "POST /web/dataset/call_kw/ir.model/create HTTP/1.1" 200 - 85 0.078 0.078
+2023-02-16 10:56:41,450 3920 INFO Grupo4SSG werkzeug: 127.0.0.1 - - [16/Feb/2023 10:56:41] "POST /longpolling/im_status HTTP/1.1" 200 - 19 0.047 0.016
+2023-02-16 10:56:44,084 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:56:44] "POST /longpolling/im_status HTTP/1.1" 200 - 5 0.000 0.031
+2023-02-16 10:56:44,427 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:56:44] "POST /longpolling/im_status HTTP/1.1" 200 - 5 0.000 0.016
+2023-02-16 10:56:50,537 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:56:50] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.016
+2023-02-16 10:56:52,599 3920 WARNING Grupo4SSG odoo.http: El nombre del modelo puede solo contener minúsculas, dígitos, guión bajo y puntos. 
+2023-02-16 10:56:52,599 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:56:52] "POST /web/dataset/call_kw/ir.model/create HTTP/1.1" 200 - 86 0.063 0.062
+2023-02-16 10:56:58,974 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:56:58] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.016 50.008
+2023-02-16 10:56:59,458 3920 INFO Grupo4SSG werkzeug: 127.0.0.1 - - [16/Feb/2023 10:56:59] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.000 50.024
+2023-02-16 10:57:00,130 3920 INFO Grupo4SSG werkzeug: 127.0.0.1 - - [16/Feb/2023 10:57:00] "POST /longpolling/im_status HTTP/1.1" 200 - 17 0.047 0.016
+2023-02-16 10:57:00,537 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:57:00] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.000 50.024
+2023-02-16 10:57:11,240 3920 INFO Grupo4SSG odoo.modules.registry: Registry changed, signaling through the database 
+2023-02-16 10:57:11,240 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:57:11] "POST /web/dataset/call_kw/ir.model/create HTTP/1.1" 200 - 118 0.234 0.391
+2023-02-16 10:57:11,599 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:57:11] "POST /web/dataset/call_kw/ir.model/read HTTP/1.1" 200 - 24 0.047 0.016
+2023-02-16 10:57:12,036 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:57:12] "POST /web/dataset/call_kw/ir.model.fields/read HTTP/1.1" 200 - 2 0.000 0.016
+2023-02-16 10:57:32,443 3920 INFO Grupo4SSG werkzeug: 127.0.0.1 - - [16/Feb/2023 10:57:32] "POST /longpolling/im_status HTTP/1.1" 200 - 19 0.016 0.047
+2023-02-16 10:57:35,427 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:57:35] "POST /longpolling/im_status HTTP/1.1" 200 - 5 0.000 0.016
+2023-02-16 10:57:49,505 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:57:49] "POST /longpolling/poll HTTP/1.1" 200 - 15 0.000 50.015
+2023-02-16 10:57:49,817 3920 INFO Grupo4SSG werkzeug: 127.0.0.1 - - [16/Feb/2023 10:57:49] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.000 50.031
+2023-02-16 10:57:50,942 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:57:50] "POST /longpolling/poll HTTP/1.1" 200 - 10 0.000 50.031
+2023-02-16 10:57:51,083 3920 INFO Grupo4SSG werkzeug: 127.0.0.1 - - [16/Feb/2023 10:57:51] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.016 0.000
+2023-02-16 10:58:23,395 3920 INFO Grupo4SSG werkzeug: 127.0.0.1 - - [16/Feb/2023 10:58:23] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.015
+2023-02-16 10:58:26,692 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:58:26] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.031 0.250
+2023-02-16 10:58:40,161 3920 INFO Grupo4SSG werkzeug: 127.0.0.1 - - [16/Feb/2023 10:58:40] "POST /longpolling/poll HTTP/1.1" 200 - 13 0.016 50.015
+2023-02-16 10:58:41,333 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:58:41] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.000 50.031
+2023-02-16 10:58:42,645 3920 ERROR ? odoo.addons.bus.models.bus: Bus.loop error, sleep and retry 
+Traceback (most recent call last):
+  File "C:\Program Files\Odoo 15.0.20230202\server\odoo\addons\bus\models\bus.py", line 178, in loop
+    conn.poll()
+psycopg2.OperationalError: server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Program Files\Odoo 15.0.20230202\server\odoo\addons\bus\models\bus.py", line 201, in run
+    self.loop()
+  File "C:\Program Files\Odoo 15.0.20230202\server\odoo\addons\bus\models\bus.py", line 187, in loop
+    event.set()
+  File "C:\Program Files\Odoo 15.0.20230202\server\odoo\sql_db.py", line 162, in __exit__
+    self.close()
+  File "<decorator-gen-4>", line 2, in close
+  File "C:\Program Files\Odoo 15.0.20230202\server\odoo\sql_db.py", line 90, in check
+    return f(self, *args, **kwargs)
+  File "C:\Program Files\Odoo 15.0.20230202\server\odoo\sql_db.py", line 379, in close
+    return self._close(False)
+  File "C:\Program Files\Odoo 15.0.20230202\server\odoo\sql_db.py", line 405, in _close
+    self.rollback()
+  File "<decorator-gen-8>", line 2, in rollback
+  File "C:\Program Files\Odoo 15.0.20230202\server\odoo\sql_db.py", line 90, in check
+    return f(self, *args, **kwargs)
+  File "C:\Program Files\Odoo 15.0.20230202\server\odoo\sql_db.py", line 484, in rollback
+    result = self._cnx.rollback()
+psycopg2.InterfaceError: connection already closed
+2023-02-16 10:58:42,817 3920 INFO Grupo4SSG odoo.sql_db: Connection to the database failed 
+2023-02-16 10:58:42,817 3920 WARNING Grupo4SSG odoo.addons.base.models.ir_cron: Exception in cron: 
+Traceback (most recent call last):
+  File "C:\Program Files\Odoo 15.0.20230202\server\odoo\addons\base\models\ir_cron.py", line 95, in _process_jobs
+    with db.cursor() as cron_cr:
+  File "C:\Program Files\Odoo 15.0.20230202\server\odoo\sql_db.py", line 709, in cursor
+    return Cursor(self.__pool, self.dbname, self.dsn, serialized=serialized)
+  File "C:\Program Files\Odoo 15.0.20230202\server\odoo\sql_db.py", line 259, in __init__
+    self._cnx = pool.borrow(dsn)
+  File "C:\Program Files\Odoo 15.0.20230202\server\odoo\sql_db.py", line 592, in _locked
+    return fun(self, *args, **kwargs)
+  File "C:\Program Files\Odoo 15.0.20230202\server\odoo\sql_db.py", line 660, in borrow
+    **connection_info)
+  File "C:\Program Files\Odoo 15.0.20230202\python\lib\site-packages\psycopg2\__init__.py", line 127, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: FATAL:  the database system is shutting down
+
+2023-02-16 10:58:43,051 3920 INFO ? odoo.service.server: Initiating shutdown 
+2023-02-16 10:58:43,051 3920 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2023-02-16 10:58:43,208 3920 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 7 connections  
+2023-02-16 10:58:43,254 3920 INFO Grupo4SSG odoo.sql_db: Connection to the database failed 
+2023-02-16 10:58:43,254 3920 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 10:58:43] "POST /longpolling/poll HTTP/1.1" 200 - 8 0.000 1.562
+2023-02-16 11:17:43,663 3876 INFO ? odoo: Odoo version 15.0-20230202 
+2023-02-16 11:17:43,663 3876 INFO ? odoo: Using configuration file at C:\Program Files\Odoo 15.0.20230202\server\odoo.conf 
+2023-02-16 11:17:43,663 3876 INFO ? odoo: addons paths: ['C:\\Program Files\\Odoo 15.0.20230202\\server\\odoo\\addons', 'c:\\users\\mivm\\appdata\\local\\openerp s.a\\odoo\\addons\\15.0', 'c:\\program files\\odoo 15.0.20230202\\server\\odoo\\addons'] 
+2023-02-16 11:17:43,663 3876 INFO ? odoo: database: admin@localhost:5432 
+2023-02-16 11:17:48,413 3876 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\Program Files\Odoo 15.0.20230202\thirdparty\wkhtmltopdf.exe 
+2023-02-16 11:17:51,398 3876 INFO ? odoo.service.server: HTTP service (werkzeug) running on miVM.b1mqx0nubrdedld1nl5fj0cpka.phxx.internal.cloudapp.net:8069 
+2023-02-16 11:18:06,366 3876 INFO ? odoo.http: HTTP Configuring static files 
+2023-02-16 11:18:07,647 3876 INFO Grupo4SSG odoo.modules.loading: loading 1 modules... 
+2023-02-16 11:18:07,663 3876 INFO Grupo4SSG odoo.modules.loading: 1 modules loaded in 0.02s, 0 queries (+0 extra) 
+2023-02-16 11:18:07,881 3876 INFO Grupo4SSG odoo.modules.loading: loading 34 modules... 
+2023-02-16 11:18:10,881 3876 INFO Grupo4SSG odoo.modules.loading: 34 modules loaded in 3.00s, 0 queries (+0 extra) 
+2023-02-16 11:18:11,350 3876 INFO Grupo4SSG odoo.modules.loading: Modules loaded. 
+2023-02-16 11:18:11,397 3876 INFO Grupo4SSG odoo.modules.registry: Registry loaded in 5.016s 
+2023-02-16 11:18:11,397 3876 INFO Grupo4SSG odoo.addons.base.models.ir_http: Generating routing map for key None 
+2023-02-16 11:18:12,272 3876 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2023-02-16 11:19:02,274 3876 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 11:19:02] "POST /longpolling/poll HTTP/1.1" 200 - 34 2.359 53.533
+2023-02-16 11:19:20,899 3876 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 11:19:20] "GET /web?debug=assets HTTP/1.1" 200 - 284 1.828 14.922
+2023-02-16 11:19:21,383 3876 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 11:19:21] "GET /web/assets/debug/web.assets_common.css HTTP/1.1" 200 - 3 0.016 0.047
+2023-02-16 11:19:21,524 3876 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 11:19:21] "GET /web/webclient/load_menus/712ca656034d5df12a9cf81eaa62becce4c3bf7e3b5559168eb862aa79cec5bc HTTP/1.1" 200 - 1 0.000 0.172
+2023-02-16 11:19:21,539 3876 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 11:19:21] "GET /web/assets/debug/web.assets_backend_prod_only.js HTTP/1.1" 200 - 3 0.000 0.203
+2023-02-16 11:19:21,602 3876 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 11:19:21] "GET /web/assets/debug/web.assets_backend.css HTTP/1.1" 200 - 3 0.000 0.266
+2023-02-16 11:19:22,102 3876 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 11:19:22] "GET /web/assets/debug/web.assets_common.js HTTP/1.1" 200 - 3 0.000 0.766
+2023-02-16 11:19:22,305 3876 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 11:19:22] "GET /web/assets/debug/web.assets_backend.js HTTP/1.1" 200 - 3 0.016 0.953
+2023-02-16 11:19:32,718 3876 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 11:19:32] "GET /web?debug=assets HTTP/1.1" 200 - 30 0.047 0.344
+2023-02-16 11:19:32,889 3876 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 11:19:32] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 17 0.031 0.031
+2023-02-16 11:19:32,921 3876 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 11:19:32] "POST /web/action/load HTTP/1.1" 200 - 43 0.313 0.047
+2023-02-16 11:19:32,952 3876 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 11:19:32] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 13 0.109 0.031
+2023-02-16 11:19:33,130 3876 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 11:19:33] "GET /web/assets/debug/web.assets_common.css HTTP/1.1" 200 - 3 0.000 0.016
+2023-02-16 11:19:33,145 3876 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 11:19:33] "GET /web/assets/debug/web.assets_backend.css HTTP/1.1" 200 - 3 0.000 0.031
+2023-02-16 11:19:33,177 3876 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 11:19:33] "GET /web/assets/debug/web.assets_common.js HTTP/1.1" 200 - 3 0.000 0.047
+2023-02-16 11:19:33,224 3876 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 11:19:33] "GET /web/assets/debug/web.assets_backend_prod_only.js HTTP/1.1" 200 - 3 0.000 0.078
+2023-02-16 11:19:33,224 3876 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 11:19:33] "GET /web/webclient/load_menus/712ca656034d5df12a9cf81eaa62becce4c3bf7e3b5559168eb862aa79cec5bc HTTP/1.1" 200 - 1 0.000 0.047
+2023-02-16 11:19:33,239 3876 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 11:19:33] "GET /web/assets/debug/web.assets_backend.js HTTP/1.1" 200 - 3 0.000 0.094
+2023-02-16 11:19:47,458 3876 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 11:19:47] "POST /web/action/load HTTP/1.1" 200 - 17 0.000 0.031
+2023-02-16 11:19:47,552 3876 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 11:19:47] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 200 - 5 0.000 0.031
+2023-02-16 11:19:47,552 3876 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 11:19:47] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 5 0.016 0.016
+2023-02-16 11:19:47,963 3876 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 11:19:47] "POST /web/dataset/call_kw/res.partner/load_views HTTP/1.1" 200 - 71 0.193 0.078
+2023-02-16 11:19:47,995 3876 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 11:19:47] "GET /web/image/res.company/1/favicon HTTP/1.1" 200 - 10 0.000 0.031
+2023-02-16 11:19:48,042 3876 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 11:19:48] "POST /mail/init_messaging HTTP/1.1" 200 - 52 0.208 0.000
+2023-02-16 11:19:48,271 3876 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 11:19:48] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.016
+2023-02-16 11:19:48,452 3876 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 11:19:48] "POST /mail/load_message_failures HTTP/1.1" 200 - 3 0.016 0.000
+2023-02-16 11:19:48,965 3876 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 11:19:48] "POST /web/dataset/call_kw/mail.followers/load_views HTTP/1.1" 200 - 13 0.031 0.013
+2023-02-16 11:19:48,999 3876 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 11:19:48] "POST /web/dataset/call_kw/mail.message/load_views HTTP/1.1" 200 - 16 0.050 0.016
+2023-02-16 11:19:49,030 3876 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 11:19:49] "POST /web/dataset/call_kw/mail.activity/load_views HTTP/1.1" 200 - 28 0.110 0.000
+2023-02-16 11:19:49,854 3876 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 11:19:49] "POST /web/dataset/call_kw/res.partner/read HTTP/1.1" 200 - 39 0.215 0.048
+2023-02-16 11:19:50,278 3876 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 11:19:50] "POST /web/dataset/call_kw/mail.message/read HTTP/1.1" 200 - 5 0.000 0.000
+2023-02-16 11:19:50,679 3876 INFO ? werkzeug: 193.146.86.25 - - [16/Feb/2023 11:19:50] "GET /web/static/src/legacy/xml/ribbon.xml?debug=1676546391203 HTTP/1.1" 200 - - - -
+2023-02-16 11:19:50,741 3876 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 11:19:50] "GET /web/image?model=res.partner&id=1&field=avatar_128&unique=16022023103831 HTTP/1.1" 200 - 5 0.000 0.000
+2023-02-16 11:19:51,076 3876 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 11:19:51] "POST /web/dataset/call_kw/res.partner/read HTTP/1.1" 200 - 3 0.016 0.000
+2023-02-16 11:19:51,076 3876 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 11:19:51] "POST /mail/read_followers HTTP/1.1" 200 - 4 0.016 0.000
+2023-02-16 11:19:51,091 3876 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 11:19:51] "POST /mail/get_suggested_recipients HTTP/1.1" 200 - 4 0.016 0.000
+2023-02-16 11:19:51,154 3876 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 11:19:51] "POST /mail/thread/messages HTTP/1.1" 200 - 23 0.062 0.047
+2023-02-16 11:19:51,323 3876 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 11:19:51] "POST /mail/thread/data HTTP/1.1" 200 - 5 0.000 0.000
+2023-02-16 11:19:51,444 3876 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 11:19:51] "POST /web/dataset/call_kw/res.partner/read HTTP/1.1" 200 - 3 0.000 0.000
+2023-02-16 11:19:51,460 3876 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 11:19:51] "POST /mail/read_followers HTTP/1.1" 200 - 3 0.000 0.016
+2023-02-16 11:19:51,475 3876 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 11:19:51] "POST /mail/get_suggested_recipients HTTP/1.1" 200 - 3 0.000 0.016
+2023-02-16 11:19:51,522 3876 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 11:19:51] "POST /mail/thread/data HTTP/1.1" 200 - 3 0.000 0.000
+2023-02-16 11:19:51,700 3876 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 11:19:51] "POST /web/dataset/call_kw/mail.activity/activity_format HTTP/1.1" 200 - 1 0.000 0.000
+2023-02-16 11:19:51,840 3876 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 11:19:51] "POST /web/dataset/call_kw/mail.message/mark_all_as_read HTTP/1.1" 200 - 5 0.016 0.000
+2023-02-16 11:19:51,840 3876 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 11:19:51] "POST /web/dataset/call_kw/mail.activity/activity_format HTTP/1.1" 200 - 1 0.000 0.000
+2023-02-16 11:19:51,856 3876 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 11:19:51] "GET /web/image/res.partner/3/avatar_128 HTTP/1.1" 200 - 6 0.000 0.016
+2023-02-16 11:19:52,649 3876 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 11:19:52] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.000 50.000
+2023-02-16 11:20:22,857 3876 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 11:20:22] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.016 50.030
+2023-02-16 11:20:31,480 3876 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 11:20:31] "POST /web/action/load HTTP/1.1" 200 - 50 0.114 0.047
+2023-02-16 11:20:32,019 3876 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 11:20:32] "POST /web/dataset/call_kw/product.template/load_views HTTP/1.1" 200 - 70 0.078 0.031
+2023-02-16 11:20:33,125 3876 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 11:20:33] "POST /web/dataset/search_read HTTP/1.1" 200 - 7 0.109 0.000
+2023-02-16 11:20:33,600 3876 INFO ? werkzeug: 193.146.86.25 - - [16/Feb/2023 11:20:33] "GET /web/static/img/smiling_face.svg HTTP/1.1" 200 - - - -
+2023-02-16 11:20:33,647 3876 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 11:20:33] "GET /web/image?model=product.template&field=image_128&id=10&unique=28022023232034 HTTP/1.1" 200 - 13 0.047 0.047
+2023-02-16 11:20:33,647 3876 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 11:20:33] "GET /web/image?model=product.template&field=image_128&id=7&unique=15022023142034 HTTP/1.1" 200 - 13 0.047 0.047
+2023-02-16 11:20:33,647 3876 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 11:20:33] "GET /web/image?model=product.template&field=image_128&id=8&unique=17012023222034 HTTP/1.1" 200 - 5 0.000 0.094
+2023-02-16 11:20:33,647 3876 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 11:20:33] "GET /web/image?model=product.template&field=image_128&id=6&unique=15022023142034 HTTP/1.1" 200 - 11 0.016 0.078
+2023-02-16 11:20:34,024 3876 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 11:20:34] "GET /web/image?model=product.template&field=image_128&id=9&unique=13022023102034 HTTP/1.1" 200 - 5 0.000 0.016
+2023-02-16 11:20:34,070 3876 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 11:20:34] "GET /web/image?model=product.template&field=image_128&id=1&unique=18022023202034 HTTP/1.1" 200 - 5 0.016 0.016
+2023-02-16 11:20:34,070 3876 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 11:20:34] "GET /web/image?model=product.template&field=image_128&id=2&unique=19022023132034 HTTP/1.1" 200 - 5 0.031 0.000
+2023-02-16 11:20:34,070 3876 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 11:20:34] "GET /web/image?model=product.template&field=image_128&id=3&unique=12032023212034 HTTP/1.1" 200 - 5 0.016 0.016
+2023-02-16 11:20:34,102 3876 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 11:20:34] "GET /web/image?model=product.template&field=image_128&id=4&unique=22022023122034 HTTP/1.1" 200 - 5 0.000 0.031
+2023-02-16 11:20:34,412 3876 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 11:20:34] "GET /web/image?model=product.template&field=image_128&id=5&unique=12012023202034 HTTP/1.1" 200 - 5 0.000 0.016
+2023-02-16 11:20:37,563 3876 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 11:20:37] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.031 50.011
+2023-02-16 11:20:38,655 3876 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 11:20:38] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.000
+2023-02-16 11:21:10,973 3876 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 11:21:10] "POST /web/action/load HTTP/1.1" 200 - 50 0.047 0.016
+2023-02-16 11:21:11,469 3876 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 11:21:11] "POST /web/dataset/call_kw/calendar.event/load_views HTTP/1.1" 200 - 42 0.063 0.016
+2023-02-16 11:21:12,470 3876 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 11:21:12] "POST /web/dataset/call_kw/calendar.event/check_access_rights HTTP/1.1" 200 - 1 0.000 0.000
+2023-02-16 11:21:12,501 3876 INFO ? werkzeug: 193.146.86.25 - - [16/Feb/2023 11:21:12] "GET /web/static/lib/fullcalendar/core/main.css HTTP/1.1" 200 - - - -
+2023-02-16 11:21:12,501 3876 INFO ? werkzeug: 193.146.86.25 - - [16/Feb/2023 11:21:12] "GET /web/static/lib/fullcalendar/list/main.css HTTP/1.1" 200 - - - -
+2023-02-16 11:21:12,501 3876 INFO ? werkzeug: 193.146.86.25 - - [16/Feb/2023 11:21:12] "GET /web/static/lib/fullcalendar/timegrid/main.css HTTP/1.1" 200 - - - -
+2023-02-16 11:21:12,501 3876 INFO ? werkzeug: 193.146.86.25 - - [16/Feb/2023 11:21:12] "GET /web/static/lib/fullcalendar/daygrid/main.css HTTP/1.1" 200 - - - -
+2023-02-16 11:21:12,855 3876 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 11:21:12] "POST /web/dataset/call_kw/calendar.event/check_access_rights HTTP/1.1" 200 - 1 0.000 0.000
+2023-02-16 11:21:12,980 3876 INFO ? werkzeug: 193.146.86.25 - - [16/Feb/2023 11:21:12] "GET /web/static/lib/fullcalendar/core/main.js HTTP/1.1" 200 - - - -
+2023-02-16 11:21:13,234 3876 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 11:21:13] "POST /web/dataset/call_kw/calendar.filters/search_read HTTP/1.1" 200 - 4 0.000 0.016
+2023-02-16 11:21:13,649 3876 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 11:21:13] "POST /web/dataset/call_kw/calendar.event/search_read HTTP/1.1" 200 - 16 0.031 0.031
+2023-02-16 11:21:14,040 3876 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 11:21:14] "POST /web/dataset/call_kw/res.partner/get_attendee_detail HTTP/1.1" 200 - 7 0.000 0.016
+2023-02-16 11:21:14,485 3876 INFO ? werkzeug: 193.146.86.25 - - [16/Feb/2023 11:21:14] "GET /web/static/lib/fullcalendar/interaction/main.js HTTP/1.1" 200 - - - -
+2023-02-16 11:21:15,454 3876 INFO ? werkzeug: 193.146.86.25 - - [16/Feb/2023 11:21:15] "GET /web/static/lib/fullcalendar/moment/main.js HTTP/1.1" 200 - - - -
+2023-02-16 11:21:15,851 3876 INFO ? werkzeug: 193.146.86.25 - - [16/Feb/2023 11:21:15] "GET /web/static/lib/fullcalendar/daygrid/main.js HTTP/1.1" 200 - - - -
+2023-02-16 11:21:16,628 3876 INFO ? werkzeug: 193.146.86.25 - - [16/Feb/2023 11:21:16] "GET /web/static/lib/fullcalendar/timegrid/main.js HTTP/1.1" 200 - - - -
+2023-02-16 11:21:17,397 3876 INFO ? werkzeug: 193.146.86.25 - - [16/Feb/2023 11:21:17] "GET /web/static/lib/fullcalendar/list/main.js HTTP/1.1" 200 - - - -
+2023-02-16 11:21:27,960 3876 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 11:21:27] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.000 50.001
+2023-02-16 11:21:29,053 3876 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 11:21:29] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.000
+2023-02-16 11:21:34,194 3876 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 11:21:34] "POST /web/dataset/call_kw/res.partner/load_views HTTP/1.1" 200 - 28 0.031 0.047
+2023-02-16 11:21:35,163 3876 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 11:21:35] "POST /web/dataset/search_read HTTP/1.1" 200 - 18 0.031 0.000
+2023-02-16 11:21:35,600 3876 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 11:21:35] "GET /web/image?model=res.partner&field=avatar_128&id=1&unique=16022023103831 HTTP/1.1" 200 - 5 0.000 0.000
+2023-02-16 11:21:35,616 3876 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 11:21:35] "GET /web/image?model=res.partner&field=avatar_128&id=3&unique=09022023104349 HTTP/1.1" 200 - 6 0.000 0.000
+2023-02-16 11:21:39,335 3876 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 11:21:39] "POST /web/dataset/call_kw/mail.followers/load_views HTTP/1.1" 200 - 6 0.016 0.000
+2023-02-16 11:21:39,335 3876 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 11:21:39] "POST /web/dataset/call_kw/mail.activity/load_views HTTP/1.1" 200 - 6 0.016 0.000
+2023-02-16 11:21:39,350 3876 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 11:21:39] "POST /web/dataset/call_kw/mail.message/load_views HTTP/1.1" 200 - 6 0.000 0.031
+2023-02-16 11:21:39,975 3876 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 11:21:39] "POST /web/dataset/call_kw/res.partner/read HTTP/1.1" 200 - 28 0.031 0.031
+2023-02-16 11:21:40,350 3876 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 11:21:40] "POST /web/dataset/call_kw/mail.message/read HTTP/1.1" 200 - 5 0.000 0.000
+2023-02-16 11:21:40,835 3876 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 11:21:40] "POST /web/dataset/call_kw/mail.message/mark_all_as_read HTTP/1.1" 200 - 5 0.016 0.000
+2023-02-16 11:21:40,835 3876 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 11:21:40] "POST /mail/get_suggested_recipients HTTP/1.1" 200 - 3 0.000 0.016
+2023-02-16 11:21:40,850 3876 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 11:21:40] "POST /mail/read_followers HTTP/1.1" 200 - 3 0.016 0.016
+2023-02-16 11:21:40,850 3876 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 11:21:40] "POST /mail/thread/messages HTTP/1.1" 200 - 4 0.000 0.031
+2023-02-16 11:21:40,850 3876 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 11:21:40] "POST /web/dataset/call_kw/res.partner/read HTTP/1.1" 200 - 3 0.000 0.016
+2023-02-16 11:21:41,210 3876 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 11:21:41] "POST /mail/thread/data HTTP/1.1" 200 - 3 0.000 0.016
+2023-02-16 11:21:41,210 3876 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 11:21:41] "POST /web/dataset/call_kw/res.partner/read HTTP/1.1" 200 - 3 0.000 0.000
+2023-02-16 11:21:41,241 3876 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 11:21:41] "POST /mail/read_followers HTTP/1.1" 200 - 3 0.000 0.016
+2023-02-16 11:21:41,241 3876 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 11:21:41] "POST /mail/get_suggested_recipients HTTP/1.1" 200 - 3 0.000 0.016
+2023-02-16 11:21:41,241 3876 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 11:21:41] "POST /mail/thread/data HTTP/1.1" 200 - 3 0.000 0.000
+2023-02-16 11:21:41,569 3876 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 11:21:41] "POST /web/dataset/call_kw/mail.activity/activity_format HTTP/1.1" 200 - 1 0.000 0.000
+2023-02-16 11:21:41,600 3876 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 11:21:41] "POST /web/dataset/call_kw/mail.activity/activity_format HTTP/1.1" 200 - 1 0.000 0.000
+2023-02-16 11:22:05,642 3876 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 11:22:05] "POST /web/action/load HTTP/1.1" 200 - 30 0.031 0.016
+2023-02-16 11:22:06,116 3876 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 11:22:06] "POST /web/dataset/call_kw/res.config.settings/load_views HTTP/1.1" 200 - 20 0.058 0.031
+2023-02-16 11:22:07,306 3876 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 11:22:07] "POST /web/dataset/call_kw/res.config.settings/onchange HTTP/1.1" 200 - 213 0.163 0.016
+2023-02-16 11:22:07,867 3876 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 11:22:07] "POST /base_setup/demo_active HTTP/1.1" 200 - 4 0.000 0.016
+2023-02-16 11:22:07,898 3876 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 11:22:07] "POST /base_setup/data HTTP/1.1" 200 - 6 0.047 0.000
+2023-02-16 11:22:13,806 3876 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 11:22:13] "POST /web/dataset/call_kw/res.config.settings/create HTTP/1.1" 200 - 53 0.070 0.000
+2023-02-16 11:22:14,206 3876 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 11:22:14] "POST /web/dataset/call_kw/res.config.settings/read HTTP/1.1" 200 - 16 0.016 0.016
+2023-02-16 11:22:14,617 3876 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 11:22:14] "POST /web/action/load HTTP/1.1" 200 - 23 0.000 0.031
+2023-02-16 11:22:15,046 3876 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 11:22:15] "POST /web/dataset/call_kw/res.company/load_views HTTP/1.1" 200 - 27 0.016 0.031
+2023-02-16 11:22:15,799 3876 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 11:22:15] "POST /web/dataset/search_read HTTP/1.1" 200 - 4 0.000 0.016
+2023-02-16 11:22:16,175 3876 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 11:22:16] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 2 0.000 0.000
+2023-02-16 11:22:16,595 3876 INFO ? werkzeug: 193.146.86.25 - - [16/Feb/2023 11:22:16] "GET /web/static/src/img/openhand.cur HTTP/1.1" 304 - - - -
+2023-02-16 11:22:18,351 3876 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 11:22:18] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.000 50.016
+2023-02-16 11:22:19,436 3876 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 11:22:19] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.000
+2023-02-16 11:22:20,506 3876 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 11:22:20] "POST /web/dataset/call_kw/res.company/read HTTP/1.1" 200 - 10 0.016 0.000
+2023-02-16 11:22:49,332 3876 INFO Grupo4SSG werkzeug: 85.51.18.193 - - [16/Feb/2023 11:22:49] "GET /web/webclient/qweb/1676546581702?bundle=web.assets_frontend HTTP/1.1" 200 - 10 0.000 0.031
+2023-02-16 11:23:08,734 3876 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 11:23:08] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.016 50.005
+2023-02-16 11:23:09,807 3876 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 11:23:09] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.000
+2023-02-16 11:23:39,882 3876 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 11:23:39] "POST /web/dataset/search_read HTTP/1.1" 200 - 4 0.000 0.000
+2023-02-16 11:23:47,523 3876 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 11:23:47] "POST /web/dataset/search_read HTTP/1.1" 200 - 2 0.000 0.016
+2023-02-16 11:23:47,961 3876 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 11:23:47] "GET /web/image?model=product.template&field=image_128&id=7&unique=09022023092348 HTTP/1.1" 200 - 5 0.016 0.016
+2023-02-16 11:23:47,977 3876 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 11:23:47] "GET /web/image?model=product.template&field=image_128&id=8&unique=22012023002348 HTTP/1.1" 200 - 5 0.016 0.016
+2023-02-16 11:23:47,977 3876 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 11:23:47] "GET /web/image?model=product.template&field=image_128&id=6&unique=14022023162348 HTTP/1.1" 200 - 5 0.000 0.031
+2023-02-16 11:23:48,008 3876 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 11:23:48] "GET /web/image?model=product.template&field=image_128&id=10&unique=11012023232348 HTTP/1.1" 200 - 5 0.000 0.031
+2023-02-16 11:23:48,008 3876 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 11:23:48] "GET /web/image?model=product.template&field=image_128&id=9&unique=02042023072348 HTTP/1.1" 200 - 5 0.016 0.000
+2023-02-16 11:23:48,367 3876 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 11:23:48] "GET /web/image?model=product.template&field=image_128&id=1&unique=07042023022348 HTTP/1.1" 200 - 5 0.000 0.016
+2023-02-16 11:23:48,398 3876 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 11:23:48] "GET /web/image?model=product.template&field=image_128&id=2&unique=15032023172348 HTTP/1.1" 200 - 5 0.016 0.016
+2023-02-16 11:23:48,398 3876 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 11:23:48] "GET /web/image?model=product.template&field=image_128&id=3&unique=17022023152348 HTTP/1.1" 200 - 5 0.016 0.016
+2023-02-16 11:23:48,414 3876 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 11:23:48] "GET /web/image?model=product.template&field=image_128&id=5&unique=05042023152348 HTTP/1.1" 200 - 5 0.000 0.016
+2023-02-16 11:23:48,430 3876 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 11:23:48] "GET /web/image?model=product.template&field=image_128&id=4&unique=20022023022348 HTTP/1.1" 200 - 5 0.016 0.016
+2023-02-16 11:23:53,879 3876 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 11:23:53] "POST /web/action/load HTTP/1.1" 200 - 11 0.016 0.000
+2023-02-16 11:23:54,292 3876 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 11:23:54] "POST /web/dataset/call_kw/res.company/load_views HTTP/1.1" 200 - 19 0.000 0.031
+2023-02-16 11:23:55,049 3876 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 11:23:55] "POST /web/dataset/search_read HTTP/1.1" 200 - 4 0.000 0.000
+2023-02-16 11:23:59,126 3876 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 11:23:59] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.000 50.026
+2023-02-16 11:24:00,197 3876 INFO Grupo4SSG werkzeug: 193.146.86.25 - - [16/Feb/2023 11:24:00] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.016
+2023-02-16 11:24:29,955 3876 ERROR ? odoo.addons.bus.models.bus: Bus.loop error, sleep and retry 
+Traceback (most recent call last):
+  File "C:\Program Files\Odoo 15.0.20230202\server\odoo\addons\bus\models\bus.py", line 178, in loop
+    conn.poll()
+psycopg2.OperationalError: server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Program Files\Odoo 15.0.20230202\server\odoo\addons\bus\models\bus.py", line 201, in run
+    self.loop()
+  File "C:\Program Files\Odoo 15.0.20230202\server\odoo\addons\bus\models\bus.py", line 187, in loop
+    event.set()
+  File "C:\Program Files\Odoo 15.0.20230202\server\odoo\sql_db.py", line 162, in __exit__
+    self.close()
+  File "<decorator-gen-4>", line 2, in close
+  File "C:\Program Files\Odoo 15.0.20230202\server\odoo\sql_db.py", line 90, in check
+    return f(self, *args, **kwargs)
+  File "C:\Program Files\Odoo 15.0.20230202\server\odoo\sql_db.py", line 379, in close
+    return self._close(False)
+  File "C:\Program Files\Odoo 15.0.20230202\server\odoo\sql_db.py", line 405, in _close
+    self.rollback()
+  File "<decorator-gen-8>", line 2, in rollback
+  File "C:\Program Files\Odoo 15.0.20230202\server\odoo\sql_db.py", line 90, in check
+    return f(self, *args, **kwargs)
+  File "C:\Program Files\Odoo 15.0.20230202\server\odoo\sql_db.py", line 484, in rollback
+    result = self._cnx.rollback()
+psycopg2.InterfaceError: connection already closed
+2023-02-16 11:24:30,080 3876 INFO Grupo4SSG odoo.sql_db: Connection to the database failed 
+2023-02-16 11:24:30,080 3876 WARNING Grupo4SSG odoo.addons.base.models.ir_cron: Exception in cron: 
+Traceback (most recent call last):
+  File "C:\Program Files\Odoo 15.0.20230202\server\odoo\addons\base\models\ir_cron.py", line 95, in _process_jobs
+    with db.cursor() as cron_cr:
+  File "C:\Program Files\Odoo 15.0.20230202\server\odoo\sql_db.py", line 709, in cursor
+    return Cursor(self.__pool, self.dbname, self.dsn, serialized=serialized)
+  File "C:\Program Files\Odoo 15.0.20230202\server\odoo\sql_db.py", line 259, in __init__
+    self._cnx = pool.borrow(dsn)
+  File "C:\Program Files\Odoo 15.0.20230202\server\odoo\sql_db.py", line 592, in _locked
+    return fun(self, *args, **kwargs)
+  File "C:\Program Files\Odoo 15.0.20230202\server\odoo\sql_db.py", line 660, in borrow
+    **connection_info)
+  File "C:\Program Files\Odoo 15.0.20230202\python\lib\site-packages\psycopg2\__init__.py", line 127, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: FATAL:  the database system is shutting down
+
+2023-02-16 11:24:30,174 3876 INFO ? odoo.service.server: Initiating shutdown 
+2023-02-16 11:24:30,174 3876 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2023-02-17 17:30:34,897 3692 INFO ? odoo: Odoo version 15.0-20230202 
+2023-02-17 17:30:34,897 3692 INFO ? odoo: Using configuration file at C:\Program Files\Odoo 15.0.20230202\server\odoo.conf 
+2023-02-17 17:30:34,897 3692 INFO ? odoo: addons paths: ['C:\\Program Files\\Odoo 15.0.20230202\\server\\odoo\\addons', 'c:\\users\\mivm\\appdata\\local\\openerp s.a\\odoo\\addons\\15.0', 'c:\\program files\\odoo 15.0.20230202\\server\\odoo\\addons'] 
+2023-02-17 17:30:34,897 3692 INFO ? odoo: database: admin@localhost:5432 
+2023-02-17 17:30:39,913 3692 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\Program Files\Odoo 15.0.20230202\thirdparty\wkhtmltopdf.exe 
+2023-02-17 17:30:42,538 3692 INFO ? odoo.service.server: HTTP service (werkzeug) running on miVM.b1mqx0nubrdedld1nl5fj0cpka.phxx.internal.cloudapp.net:8069 
+2023-02-17 17:31:10,761 3692 INFO ? odoo.http: HTTP Configuring static files 
+2023-02-17 17:31:11,854 3692 INFO Grupo4SSG odoo.modules.loading: loading 1 modules... 
+2023-02-17 17:31:11,854 3692 INFO Grupo4SSG odoo.modules.loading: 1 modules loaded in 0.00s, 0 queries (+0 extra) 
+2023-02-17 17:31:12,089 3692 INFO Grupo4SSG odoo.modules.loading: loading 34 modules... 
+2023-02-17 17:31:14,307 3692 INFO Grupo4SSG odoo.modules.loading: 34 modules loaded in 2.22s, 0 queries (+0 extra) 
+2023-02-17 17:31:14,776 3692 INFO Grupo4SSG odoo.modules.loading: Modules loaded. 
+2023-02-17 17:31:14,823 3692 INFO Grupo4SSG odoo.modules.registry: Registry loaded in 4.047s 
+2023-02-17 17:31:14,823 3692 INFO Grupo4SSG odoo.addons.base.models.ir_http: Generating routing map for key None 
+2023-02-17 17:31:15,198 3692 INFO Grupo4SSG werkzeug: 88.25.39.119 - - [17/Feb/2023 17:31:15] "GET / HTTP/1.1" 303 - 22 1.688 2.734
+2023-02-17 17:31:32,641 3692 INFO Grupo4SSG werkzeug: 88.25.39.119 - - [17/Feb/2023 17:31:32] "GET /web HTTP/1.1" 200 - 284 1.250 15.787
+2023-02-17 17:31:33,287 3692 INFO Grupo4SSG werkzeug: 88.25.39.119 - - [17/Feb/2023 17:31:33] "GET /web/assets/41-e706c9a/web.assets_backend.min.css HTTP/1.1" 304 - 2 0.016 0.219
+2023-02-17 17:31:33,568 3692 INFO Grupo4SSG werkzeug: 88.25.39.119 - - [17/Feb/2023 17:31:33] "GET /web/assets/42-08552dd/web.assets_common.min.js HTTP/1.1" 304 - 2 0.016 0.516
+2023-02-17 17:31:33,599 3692 INFO Grupo4SSG werkzeug: 88.25.39.119 - - [17/Feb/2023 17:31:33] "GET /web/assets/38-8a12e4a/web.assets_backend_prod_only.min.js HTTP/1.1" 304 - 2 0.016 0.531
+2023-02-17 17:31:33,599 3692 INFO Grupo4SSG werkzeug: 88.25.39.119 - - [17/Feb/2023 17:31:33] "GET /web/assets/40-08552dd/web.assets_common.min.css HTTP/1.1" 200 - 2 0.000 0.547
+2023-02-17 17:31:33,803 3692 INFO Grupo4SSG werkzeug: 88.25.39.119 - - [17/Feb/2023 17:31:33] "GET /web/assets/49-e706c9a/web.assets_backend.min.js HTTP/1.1" 304 - 2 0.016 0.734
+2023-02-17 17:31:34,716 3692 INFO Grupo4SSG werkzeug: 88.25.39.119 - - [17/Feb/2023 17:31:34] "GET /web/webclient/load_menus/712ca656034d5df12a9cf81eaa62becce4c3bf7e3b5559168eb862aa79cec5bc HTTP/1.1" 200 - 1 0.000 0.016
+2023-02-17 17:31:34,778 3692 INFO Grupo4SSG werkzeug: 88.25.39.119 - - [17/Feb/2023 17:31:34] "GET /web/webclient/translations/fb85d95f36b4213bb3d1deb387734c0a3e79078b?lang=es_ES HTTP/1.1" 200 - 7 0.031 0.031
+2023-02-17 17:31:34,872 3692 INFO Grupo4SSG werkzeug: 88.25.39.119 - - [17/Feb/2023 17:31:34] "GET /web/webclient/qweb/7ba4183668f6710b217fa41d57c2a7abcf2f3b2cf91bc1081f051abc1bedbaa9?bundle=web.assets_qweb HTTP/1.1" 200 - 2 0.016 0.141
+2023-02-17 17:31:34,981 3692 INFO Grupo4SSG werkzeug: 88.25.39.119 - - [17/Feb/2023 17:31:34] "GET /web/webclient/translations/fb85d95f36b4213bb3d1deb387734c0a3e79078b?lang=es_ES HTTP/1.1" 200 - 5 0.031 0.031
+2023-02-17 17:31:37,324 3692 INFO Grupo4SSG werkzeug: 88.25.39.119 - - [17/Feb/2023 17:31:37] "GET /web/webclient/translations/fb85d95f36b4213bb3d1deb387734c0a3e79078b?lang=es_ES HTTP/1.1" 200 - 5 0.016 0.031
+2023-02-17 17:31:40,705 3692 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2023-02-17 17:31:40,815 3692 INFO Grupo4SSG werkzeug: 88.25.39.119 - - [17/Feb/2023 17:31:40] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 200 - 14 0.266 0.016
+2023-02-17 17:31:40,815 3692 INFO Grupo4SSG werkzeug: 88.25.39.119 - - [17/Feb/2023 17:31:40] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 13 0.125 0.188
+2023-02-17 17:31:40,877 3692 INFO Grupo4SSG werkzeug: 88.25.39.119 - - [17/Feb/2023 17:31:40] "POST /mail/init_messaging HTTP/1.1" 200 - 68 0.391 0.000
+2023-02-17 17:31:40,924 3692 INFO Grupo4SSG werkzeug: 88.25.39.119 - - [17/Feb/2023 17:31:40] "POST /web/action/load HTTP/1.1" 200 - 30 0.328 0.094
+2023-02-17 17:31:41,408 3692 INFO Grupo4SSG werkzeug: 88.25.39.119 - - [17/Feb/2023 17:31:41] "POST /web/dataset/call_kw/res.config.settings/load_views HTTP/1.1" 200 - 24 0.047 0.063
+2023-02-17 17:31:42,537 3692 INFO Grupo4SSG werkzeug: 88.25.39.119 - - [17/Feb/2023 17:31:42] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.000
+2023-02-17 17:31:42,553 3692 INFO Grupo4SSG werkzeug: 88.25.39.119 - - [17/Feb/2023 17:31:42] "POST /mail/load_message_failures HTTP/1.1" 200 - 3 0.016 0.000
+2023-02-17 17:31:43,037 3692 INFO Grupo4SSG werkzeug: 88.25.39.119 - - [17/Feb/2023 17:31:43] "POST /web/dataset/call_kw/res.config.settings/onchange HTTP/1.1" 200 - 216 0.203 0.078
+2023-02-17 17:31:43,491 3692 INFO ? werkzeug: 88.25.39.119 - - [17/Feb/2023 17:31:43] "GET /base_setup/static/src/img/google_play.png HTTP/1.1" 200 - - - -
+2023-02-17 17:31:43,506 3692 INFO Grupo4SSG werkzeug: 88.25.39.119 - - [17/Feb/2023 17:31:43] "POST /base_setup/demo_active HTTP/1.1" 200 - 4 0.000 0.016
+2023-02-17 17:31:43,506 3692 INFO Grupo4SSG werkzeug: 88.25.39.119 - - [17/Feb/2023 17:31:43] "POST /base_setup/data HTTP/1.1" 200 - 6 0.016 0.012
+2023-02-17 17:31:43,553 3692 INFO ? werkzeug: 88.25.39.119 - - [17/Feb/2023 17:31:43] "GET /base_setup/static/src/img/app_store.png HTTP/1.1" 200 - - - -
+2023-02-17 17:31:43,709 3692 INFO Grupo4SSG odoo.addons.base.models.ir_cron: Starting job `Digest Emails`. 
+2023-02-17 17:31:43,741 3692 INFO Grupo4SSG odoo.addons.base.models.ir_cron: Job `Digest Emails` done. 
+2023-02-17 17:31:43,741 3692 INFO Grupo4SSG odoo.addons.base.models.ir_cron: Starting job `Base: Auto-vacuum internal data`. 
+2023-02-17 17:31:43,866 3692 INFO Grupo4SSG odoo.addons.base.models.ir_attachment: filestore gc 0 checked, 0 removed 
+2023-02-17 17:31:44,069 3692 INFO ? werkzeug: 88.25.39.119 - - [17/Feb/2023 17:31:44] "GET /stock/static/description/icon.png HTTP/1.1" 200 - - - -
+2023-02-17 17:31:44,116 3692 INFO ? werkzeug: 88.25.39.119 - - [17/Feb/2023 17:31:44] "GET /base/static/description/settings.png HTTP/1.1" 200 - - - -
+2023-02-17 17:31:44,116 3692 INFO Grupo4SSG odoo.models.unlink: User #1 deleted res.config.settings records with IDs: [7, 8, 9, 10, 11] 
+2023-02-17 17:31:44,116 3692 INFO Grupo4SSG odoo.addons.base.models.res_users: GC'd 0 user log entries 
+2023-02-17 17:31:44,366 3692 INFO Grupo4SSG odoo.addons.auth_totp.models.auth_totp: GC'd 0 totp devices entries 
+2023-02-17 17:31:44,734 3692 INFO Grupo4SSG odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2023-02-17 17:31:44,734 3692 INFO Grupo4SSG odoo.addons.base.models.ir_cron: Job `Snailmail: process letters queue` done. 
+2023-02-17 17:31:44,750 3692 INFO Grupo4SSG odoo.addons.base.models.ir_cron: Starting job `Users: Notify About Unregistered Users`. 
+2023-02-17 17:31:44,750 3692 INFO Grupo4SSG odoo.addons.base.models.ir_cron: Job `Users: Notify About Unregistered Users` done. 
+2023-02-17 17:31:44,765 3692 INFO Grupo4SSG odoo.addons.base.models.ir_cron: Starting job `Calendar: Event Reminder`. 
+2023-02-17 17:31:44,797 3692 INFO Grupo4SSG odoo.addons.base.models.ir_cron: Job `Calendar: Event Reminder` done. 
+2023-02-17 17:31:44,812 3692 INFO Grupo4SSG odoo.addons.base.models.ir_cron: Starting job `Notification: Delete Notifications older than 6 Month`. 
+2023-02-17 17:31:44,828 3692 INFO Grupo4SSG odoo.addons.base.models.ir_cron: Job `Notification: Delete Notifications older than 6 Month` done. 
+2023-02-17 17:31:44,828 3692 INFO Grupo4SSG odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2023-02-17 17:31:44,859 3692 INFO Grupo4SSG odoo.addons.base.models.ir_cron: Job `Mail: Email Queue Manager` done. 
+2023-02-17 17:31:44,875 3692 INFO Grupo4SSG odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2023-02-17 17:31:44,875 3692 INFO Grupo4SSG odoo.addons.base.models.ir_cron: Job `Partner Autocomplete : Sync with remote DB` done. 
+2023-02-17 17:31:44,890 3692 INFO Grupo4SSG odoo.addons.base.models.ir_cron: Starting job `SMS: SMS Queue Manager`. 
+2023-02-17 17:31:44,921 3692 INFO Grupo4SSG odoo.addons.base.models.ir_cron: Job `SMS: SMS Queue Manager` done. 
+2023-02-17 17:31:44,921 3692 INFO Grupo4SSG odoo.addons.base.models.ir_cron: Starting job `Procurement: run scheduler`. 
+2023-02-17 17:31:44,968 3692 INFO Grupo4SSG odoo.addons.base.models.ir_cron: Job `Base: Auto-vacuum internal data` done. 
+2023-02-17 17:31:45,109 3692 INFO Grupo4SSG odoo.addons.stock.models.stock_rule: _run_scheduler_tasks is finished and committed 
+2023-02-17 17:31:45,109 3692 INFO Grupo4SSG odoo.addons.base.models.ir_cron: Job `Procurement: run scheduler` done. 
+2023-02-17 17:32:30,708 3692 INFO Grupo4SSG werkzeug: 88.25.39.119 - - [17/Feb/2023 17:32:30] "POST /longpolling/poll HTTP/1.1" 200 - 13 0.219 50.002
+2023-02-17 17:32:33,786 3692 INFO Grupo4SSG werkzeug: 88.25.39.119 - - [17/Feb/2023 17:32:33] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.016 0.000
+2023-02-17 17:33:21,202 3692 INFO Grupo4SSG werkzeug: 88.25.39.119 - - [17/Feb/2023 17:33:21] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.016 50.010
+2023-02-17 17:33:24,841 3692 INFO Grupo4SSG werkzeug: 88.25.39.119 - - [17/Feb/2023 17:33:24] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.000
+2023-02-17 17:34:11,819 3692 INFO Grupo4SSG werkzeug: 88.25.39.119 - - [17/Feb/2023 17:34:11] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.000 50.016
+2023-02-17 17:34:15,845 3692 INFO Grupo4SSG werkzeug: 88.25.39.119 - - [17/Feb/2023 17:34:15] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.000
+2023-02-17 17:35:02,256 3692 INFO Grupo4SSG werkzeug: 88.25.39.119 - - [17/Feb/2023 17:35:02] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.000 50.016
+2023-02-17 17:35:07,113 3692 INFO Grupo4SSG werkzeug: 88.25.39.119 - - [17/Feb/2023 17:35:07] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.000
+2023-02-17 17:35:52,795 3692 INFO Grupo4SSG werkzeug: 88.25.39.119 - - [17/Feb/2023 17:35:52] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.016 50.003
+2023-02-17 17:35:57,967 3692 INFO Grupo4SSG werkzeug: 88.25.39.119 - - [17/Feb/2023 17:35:57] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.000
+2023-02-17 17:36:43,279 3692 INFO Grupo4SSG werkzeug: 88.25.39.119 - - [17/Feb/2023 17:36:43] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.000 50.016
+2023-02-17 17:36:49,232 3692 INFO Grupo4SSG werkzeug: 88.25.39.119 - - [17/Feb/2023 17:36:49] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.016
+2023-02-17 17:37:33,670 3692 INFO Grupo4SSG werkzeug: 88.25.39.119 - - [17/Feb/2023 17:37:33] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.000 50.016
+2023-02-17 17:37:40,232 3692 INFO Grupo4SSG werkzeug: 88.25.39.119 - - [17/Feb/2023 17:37:40] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.016
+2023-02-17 17:38:24,060 3692 INFO Grupo4SSG werkzeug: 88.25.39.119 - - [17/Feb/2023 17:38:24] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.000 50.016
+2023-02-17 17:38:31,233 3692 INFO Grupo4SSG werkzeug: 88.25.39.119 - - [17/Feb/2023 17:38:31] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.016 0.001
+2023-02-17 17:39:14,451 3692 INFO Grupo4SSG werkzeug: 88.25.39.119 - - [17/Feb/2023 17:39:14] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.000 50.000
+2023-02-17 17:39:22,185 3692 INFO Grupo4SSG werkzeug: 88.25.39.119 - - [17/Feb/2023 17:39:22] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.016
+2023-02-17 17:40:04,842 3692 INFO Grupo4SSG werkzeug: 88.25.39.119 - - [17/Feb/2023 17:40:04] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.000 50.031
+2023-02-17 17:40:13,248 3692 INFO Grupo4SSG werkzeug: 88.25.39.119 - - [17/Feb/2023 17:40:13] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.016
+2023-02-17 17:40:55,216 3692 INFO Grupo4SSG werkzeug: 88.25.39.119 - - [17/Feb/2023 17:40:55] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.000 50.000
+2023-02-17 17:41:04,373 3692 INFO Grupo4SSG werkzeug: 88.25.39.119 - - [17/Feb/2023 17:41:04] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.016
+2023-02-17 17:41:45,670 3692 INFO Grupo4SSG werkzeug: 88.25.39.119 - - [17/Feb/2023 17:41:45] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.000 50.031
+2023-02-17 17:41:55,263 3692 INFO Grupo4SSG werkzeug: 88.25.39.119 - - [17/Feb/2023 17:41:55] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.016
+2023-02-17 17:42:36,044 3692 INFO Grupo4SSG werkzeug: 88.25.39.119 - - [17/Feb/2023 17:42:36] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.000 50.000
+2023-02-17 17:42:45,029 3692 INFO Grupo4SSG odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2023-02-17 17:42:45,029 3692 INFO Grupo4SSG odoo.addons.base.models.ir_cron: Job `Snailmail: process letters queue` done. 
+2023-02-17 17:42:45,044 3692 INFO Grupo4SSG odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2023-02-17 17:42:45,060 3692 INFO Grupo4SSG odoo.addons.base.models.ir_cron: Job `Mail: Email Queue Manager` done. 
+2023-02-17 17:42:45,091 3692 INFO Grupo4SSG odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2023-02-17 17:42:45,107 3692 INFO Grupo4SSG odoo.addons.base.models.ir_cron: Job `Partner Autocomplete : Sync with remote DB` done. 
+2023-02-17 17:42:45,138 3692 INFO Grupo4SSG odoo.addons.base.models.ir_cron: Starting job `SMS: SMS Queue Manager`. 
+2023-02-17 17:42:45,154 3692 INFO Grupo4SSG odoo.addons.base.models.ir_cron: Job `SMS: SMS Queue Manager` done. 
+2023-02-17 17:42:46,388 3692 INFO Grupo4SSG werkzeug: 88.25.39.119 - - [17/Feb/2023 17:42:46] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.016
+2023-02-17 17:43:26,482 3692 INFO Grupo4SSG werkzeug: 88.25.39.119 - - [17/Feb/2023 17:43:26] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.016 50.000
+2023-02-17 17:43:37,216 3692 INFO Grupo4SSG werkzeug: 88.25.39.119 - - [17/Feb/2023 17:43:37] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.000 0.000
