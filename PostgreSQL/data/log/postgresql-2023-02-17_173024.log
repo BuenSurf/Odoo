@@ -1,0 +1,17 @@
+2023-02-17 17:30:24.706 UTC [5028] LOG:  database system was shut down at 2023-02-16 11:24:30 UTC
+2023-02-17 17:30:25.275 UTC [4420] LOG:  database system is ready to accept connections
+2023-02-17 18:53:30.694 UTC [4420] LOG:  received fast shutdown request
+2023-02-17 18:53:30.717 UTC [4420] LOG:  aborting any active transactions
+2023-02-17 18:53:30.719 UTC [3400] ERROR:  canceling statement due to user request
+2023-02-17 18:53:30.731 UTC [3384] FATAL:  terminating connection due to administrator command
+2023-02-17 18:53:30.740 UTC [4804] FATAL:  terminating connection due to administrator command
+2023-02-17 18:53:30.757 UTC [4252] FATAL:  terminating connection due to administrator command
+2023-02-17 18:53:30.775 UTC [1152] FATAL:  terminating connection due to administrator command
+2023-02-17 18:53:30.794 UTC [892] FATAL:  terminating connection due to administrator command
+2023-02-17 18:53:30.812 UTC [6088] FATAL:  terminating connection due to administrator command
+2023-02-17 18:53:30.827 UTC [5224] FATAL:  terminating connection due to administrator command
+2023-02-17 18:53:30.851 UTC [4420] LOG:  background worker "logical replication launcher" (PID 3400) exited with exit code 1
+2023-02-17 18:53:30.854 UTC [5188] FATAL:  terminating connection due to administrator command
+2023-02-17 18:53:30.898 UTC [1448] LOG:  shutting down
+2023-02-17 18:53:30.937 UTC [7180] FATAL:  the database system is shutting down
+2023-02-17 18:53:30.978 UTC [4420] LOG:  database system is shut down
